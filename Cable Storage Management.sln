@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cable Storage Management", "Cable Storage Management.csproj", "{032B15CE-992F-4B02-8649-31B494E4878C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{032B15CE-992F-4B02-8649-31B494E4878C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032B15CE-992F-4B02-8649-31B494E4878C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032B15CE-992F-4B02-8649-31B494E4878C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032B15CE-992F-4B02-8649-31B494E4878C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {788358EF-F399-4F19-B46D-7A558EBCEA8D}
+	EndGlobalSection
+EndGlobal
