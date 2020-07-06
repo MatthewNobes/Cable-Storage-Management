@@ -16,5 +16,12 @@ namespace Cable_Storage_Management
         {
             InitializeComponent();
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            //Opens the add form
+            AddCable Form = new AddCable();
+            Form.Show();
+        }
     }
 }
