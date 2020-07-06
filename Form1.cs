@@ -23,5 +23,17 @@ namespace Cable_Storage_Management
             AddCable Form = new AddCable();
             Form.Show();
         }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            //Opens the edit form
+            EditCable Form = new EditCable();
+            Form.Show();
+        }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

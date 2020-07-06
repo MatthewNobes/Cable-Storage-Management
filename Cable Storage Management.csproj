@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCable.Designer.cs">
+      <DependentUpon>AddCable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCable.Designer.cs">
+      <DependentUpon>EditCable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddCable.resx">
+      <DependentUpon>AddCable.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
